@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <title>1st test</title>
+       
+    </head>
+    
+    <body>
+        <h>Launch faster</h>
+        <div id="h1"><h1>Build something great</h1></div>
+        <div class="sub">Everything you need to build a mordern UI and great products.We've done all the heavy lifting so you don't have to——the perfect starting point for any project</div>
+       <main> 
+        <div class="row">
+            <div class="column">
+          <section><div class="header1">400+</div><p><strong class="sub1">Projects completed</strong></p><p>We've helped build over 400 amazing projects.</p></section>
+        <section><div class="header2">10k</div><p><strong class="sub2">Global downloads</strong></p><p>Our free UI kits have been downloaded over 10k times.</p></section>
+        </div></div>
+        <div class="row">
+        <div class="column"></div><section><div class="header3">600%</div><p><strong class="sub3">Return on investment</strong></p><p>Our customers have reported an average of ~600% ROI.</p></section>
+        <section><div class="header4">200+</div><p><strong class="sub4">5 star reviews</strong></p><p>We're proud of our 5 star ratings with over 200 reviews.</p></section>
+    </div></div>
+    <section class="image"><div><img src="https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-6/347411127_10223502639938982_7457263693227197682_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHQ6k3pnbY6m0sJ9Q2ZAzeeBp89JtMjVO8Gnz0m0yNU7zvuBeIKUospnSAxjqrjXlI&_nc_ohc=pOWttMgyiH4AX8FhlOK&_nc_zt=23&_nc_ht=scontent.flos3-2.fna&oh=00_AfAlmArgVsuTuGr6I9zv92xxb4EuWAy-CVYfmyInb8VWvg&oe=64A3F4F1" alt="the-image" height="-30%" width="-30%">
+    </div></section>
+    </main>
+      
+    </body>
+    <style>
+
+        
+        main{
+            display: flex;
+            columns: 50%;
+            float:none;
+            margin-top: 2.2cm;
+            margin-bottom: 3cm;
+            width: 100%;
+        }    
+     
+        html{
+
+            background-color:white;
+            border-style: solid;
+            border-top-width: 2cm;
+            border-left-width: 1cm;
+            border-bottom-width: 2cm;
+            border-right-width: 0.3cm;
+            border-color: rgb(211, 211, 211, 50%);
+            padding-top: 4%;
+            padding-left: 4%;
+            padding-bottom: 1%;
+            padding-right:0cm;
+            
+           }
+
+        h{
+            font-size: x-small;
+            color: blueviolet;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .sub{
+            width: 500px;
+            white-space: break-spaces;
+            overflow: auto;
+            text-overflow: ellipsis;
+        }
+        .sub1, .sub2, .sub3, .sub4{
+            color: black;
+        }
+      
+        p{
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:center;
+            color: grey;
+            width: 200px;
+            white-space: break-spaces;
+            overflow: auto;
+            text-overflow: ellipsis;
+        }
+        .sub{
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:justify;
+            color: grey;
+        }
+       
+        .header1, .header2, .header3, .header4{
+            font-size: xx-large;
+            font-family:Arial, Helvetica, sans-serif;
+            color: blueviolet;
+            text-align: center;
+        }
+
+        .image{
+            display: flex;
+            margin-top: -5%;
+        }
+        
+        img {
+             display: grid;
+             place-items: center;
+             margin-top: 0px;
+             margin-left: 20%;
+             margin-right: -12%;
+             margin-bottom: -60px;
+             position: relative;
+             size-adjust: 65%;
+             float: right;
+             width: 500px;
+             height: 400px;
+
+
+}
+
+
+    </style>
+</html>
